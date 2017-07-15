@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dish"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CAMERA" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar" >
+        <activity
+            android:name=".atys.MainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity android:name=".atys.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".atys.RegisterActivity" />
+        <activity android:name=".atys.UploadActivity" />
+        <activity android:name=".atys.CollectActivity" />
+        <activity android:name=".atys.DetailActivity" />
+        <activity android:name=".atys.TakePhotoActivity" />
+        <activity android:name=".atys.RecordActivity" />
+        <activity android:name=".atys.VideoActivity" />
+        <activity
+            android:name="com.example.dish.atys.EditActivity"
+            android:label="@string/title_activity_edit" >
+        </activity>
+    </application>
+
+</manifest>

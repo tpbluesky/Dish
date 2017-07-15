@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_theme_color_gray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:background="#ffffff"
+            android:id="@+id/iv_user_icon"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="10dp"
+            android:padding="4dp"
+            android:src="@drawable/icon_mine_default_icon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="账号:"
+                    android:textSize="@dimen/text_size_14" />
+
+                <TextView
+                    android:id="@+id/tv_mine_account"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="15994215411"
+                    android:textSize="@dimen/text_size_14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="用户名:"
+                    android:textSize="@dimen/text_size_14" />
+
+                <TextView
+                    android:id="@+id/tv_mine_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:text="越人歌"
+                    android:textSize="@dimen/text_size_14" />
+
+                <TextView
+                    android:id="@+id/tv_mine_name_update"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/app_theme_color"
+                    android:clickable="true"
+                    android:padding="3dp"
+                    android:text="点击修改"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_upload"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/icon_mine_upload" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="我的上传"
+            android:textSize="@dimen/text_size_16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_collect"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/icon_mine_collect" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="我的收藏"
+            android:textSize="@dimen/text_size_16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_changepwd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/icon_mine_setting" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="修改密码"
+            android:textSize="@dimen/text_size_16" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_logout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/icon_mine_logout" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="退出登录 "
+            android:textSize="@dimen/text_size_16" />
+    </LinearLayout>
+
+</LinearLayout>

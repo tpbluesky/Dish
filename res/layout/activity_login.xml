@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/icon_login_backgroud"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iv_head"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/icon_login_head" />
+
+    <EditText
+        android:id="@+id/et_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_edittext_bg"
+        android:hint="@string/text_account"
+        android:inputType="phone"
+        android:maxLength="15"
+        android:padding="10dp"
+        android:textColorHint="@color/app_theme_color" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_edittext_bg"
+        android:hint="@string/text_password"
+        android:inputType="textPassword"
+        android:maxLength="20"
+        android:padding="10dp"
+        android:textColorHint="@color/app_theme_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/selector_button_bg"
+            android:text="@string/text_login"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/tv_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="12dp"
+            android:gravity="right"
+            android:text="@string/text_new_register"
+            android:textColor="@color/app_theme_color"
+            android:textSize="@dimen/text_size_12" />
+    </LinearLayout>
+
+</LinearLayout>

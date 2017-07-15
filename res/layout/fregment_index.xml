@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_theme_color_gray"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+    <EditText
+        android:id="@+id/actv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_edittext_bg2"
+        android:drawableLeft="@drawable/icon_index_search"
+        android:hint="@string/text_search_hint"
+        android:padding="8dp"
+        android:singleLine="true"
+        android:textSize="@dimen/text_size_14" />
+
+    <ListView
+        android:divider="@drawable/shape_list_divide"
+        android:id="@+id/lv_dishes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp" >
+    </ListView>
+
+</LinearLayout>

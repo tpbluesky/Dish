@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar"
+        android:background="@color/app_theme_color"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的收藏"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_20" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_margin="8dp"
+        android:id="@+id/actv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_edittext_bg2"
+        android:drawableLeft="@drawable/icon_index_search"
+        android:hint="@string/text_search_hint"
+        android:padding="8dp"
+        android:singleLine="true"
+        android:textSize="@dimen/text_size_14" />
+
+    <ListView
+        android:layout_margin="5dp"
+        android:id="@+id/lv_my_collect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+</LinearLayout>

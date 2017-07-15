@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="app_theme_color">#D76739</color>
+    <color name="btn_pressed_color">#99D76739</color>
+    <color name="app_theme_color_gray">#E3DED9</color>
+
+</resources>

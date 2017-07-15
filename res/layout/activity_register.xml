@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/icon_login_backgroud"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <EditText
+        android:id="@+id/et_register_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/shape_edittext_bg"
+        android:hint="@string/text_account"
+        android:padding="10dp"
+        android:inputType="phone"
+        android:maxLength="11"
+        android:textColorHint="@color/app_theme_color" />
+
+    <EditText
+        android:id="@+id/et_register_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_edittext_bg"
+        android:hint="@string/text_password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:maxLength="20"
+        android:textColorHint="@color/app_theme_color" />
+
+    <EditText
+        android:id="@+id/et_register_rePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_edittext_bg"
+        android:hint="@string/text_confirm_password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:maxLength="20"
+        android:textColorHint="@color/app_theme_color" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/selector_button_bg"
+        android:text="@string/text_register"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

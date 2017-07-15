@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 尺寸大小 -->
+    <dimen name="view_radius">8dp</dimen>
+    <dimen name="action_bar">52dp</dimen>
+    <dimen name="icon_size">36dp</dimen>
+
+    <!-- 字体大小 -->
+    <dimen name="text_size_12">14sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>
